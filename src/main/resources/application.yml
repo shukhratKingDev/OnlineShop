@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Asaxiy
+  datasource:
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/asaxiy
+      password: asaxiy
+      username: asaxiy
+  jpa:
+    database: postgresql
+    show-sql: true
+
+
+server:
+  port: 8080
